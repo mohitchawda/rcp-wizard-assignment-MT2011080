@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: MT2011080_RCP
+Bundle-SymbolicName: org.iiitb.assignment.MT2011080_RCP; singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: org.iiitb.assignment.mt2011080_rcp.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ClassPath: lib/mysql-connector-java-3.1.14-bin.jar,
+ .
